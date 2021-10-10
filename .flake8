@@ -1,0 +1,31 @@
+[flake8]
+
+exclude =
+    .git,
+	.idea
+	.gitignore,
+	.flake8,
+	readme.md,
+	requirements.txt,
+	P11_01_lien_repository_GitHub.txt,
+	env/,
+	flake-report/,
+	.pytest_cache/,
+	__pycache__/,
+	templates/,
+	.DS_Store,
+	clubs.json,
+	competitions.json,
+	test/.pytest_cache/,
+	test/__pycache__/,
+	test/unit_testing/.pytest_cache/,
+	test/unit_testing/__pycache__/,
+	test/unit_testing/.gitkeep,
+	test/unit_testing/test_clubs.json,
+	test/unit_testing/test_competitions.json,
+	test/integration_testing/.gitkeep,
+	test/integration_testing/.gitkeep,
+
+max-line-length=119
+format=html
+htmldir=flake-report

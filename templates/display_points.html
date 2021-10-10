@@ -1,0 +1,16 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Club points | GOODLIFT</title>
+</head>
+<body>
+    <h1>Club points summary</h1>
+    <ul>
+       {% for club in clubs %}
+            <li>{{club['name']}}: {{club['points']}} points</li>
+        {% endfor %}
+    </ul>
+	<a href="{{url_for('logout')}}">Back to the GOODLIFT Registration Portal</a>
+</body>
+</html>

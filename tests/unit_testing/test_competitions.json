@@ -1,0 +1,19 @@
+{
+    "competitions": [
+        {
+            "name": "test_competition",
+            "date": "2020-03-27 10:00:00",
+            "numberOfPlaces": "25"
+        },
+		{
+            "name": "test_competition_full",
+            "date": "2020-03-27 10:00:00",
+            "numberOfPlaces": "0"
+        },
+		{
+            "name": "test_comp_one_left",
+            "date": "2020-03-27 10:00:00",
+            "numberOfPlaces": "1"
+        }
+    ]
+}
